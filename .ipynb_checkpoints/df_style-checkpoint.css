@@ -1,0 +1,55 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "/* includes alternating gray and white with on-hover color */\n",
+    "\n",
+    ".mystyle {\n",
+    "    font-size: 11pt; \n",
+    "    font-family: Arial;\n",
+    "    border-collapse: collapse; \n",
+    "    border: 1px solid silver;\n",
+    "\n",
+    "}\n",
+    "\n",
+    ".mystyle td, th {\n",
+    "    padding: 5px;\n",
+    "}\n",
+    "\n",
+    ".mystyle tr:nth-child(even) {\n",
+    "    background: #E0E0E0;\n",
+    "}\n",
+    "\n",
+    ".mystyle tr:hover {\n",
+    "    background: silver;\n",
+    "    cursor: pointer;\n",
+    "}"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python (PythonData)",
+   "language": "python",
+   "name": "pythondata"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
